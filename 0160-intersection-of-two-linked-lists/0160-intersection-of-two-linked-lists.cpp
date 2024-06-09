@@ -9,6 +9,7 @@
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        /* using hashmap
         map<ListNode*,int>mp;
         ListNode* temp1=headA;
         while(temp1){
@@ -23,5 +24,36 @@ public:
             temp2=temp2->next;
         }
         return NULL;
+        */
+        int n1=0,n2=0;
+        ListNode* temp1=headA;
+        while(temp1){
+            n1++;
+            temp1=temp1->next;
+        }
+        ListNode* temp2=headB;
+        while(temp2){
+            n2++;
+            temp2=temp2->next;
+        }
+        temp1=headA;
+        temp2=headB;
+        if(n2>n1){
+          int d=n2-n1;
+          while(d--){
+            temp2=temp2->next;
+          }
+        }
+        else{
+           int d=n1-n2;
+            while(d--){
+                temp1=temp1->next;
+            }
+        }
+        while(temp1!=temp2){
+            temp1=temp1->next;
+            temp2=temp2->next;
+        }
+        return temp1;
     }
 };
