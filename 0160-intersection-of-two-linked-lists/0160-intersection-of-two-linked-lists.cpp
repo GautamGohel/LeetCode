@@ -25,6 +25,7 @@ public:
         }
         return NULL;
         */
+        /* by aligning head 
         int n1=0,n2=0;
         ListNode* temp1=headA;
         while(temp1){
@@ -53,6 +54,17 @@ public:
         while(temp1!=temp2){
             temp1=temp1->next;
             temp2=temp2->next;
+        }
+        return temp1;
+        */
+        ListNode* temp1=headA;
+        ListNode* temp2=headB;
+        while(temp1!=temp2){
+            temp1=temp1->next;
+            temp2=temp2->next;
+            if(temp1==temp2) return temp1;
+            if(!temp1) temp1=headB;
+            if(!temp2) temp2=headA;
         }
         return temp1;
     }
