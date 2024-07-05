@@ -24,7 +24,7 @@ public:
         solve(root,ans);
         return ans;
     }*/
-    vector<int> preorderTraversal(TreeNode* root) {
+    /*vector<int> preorderTraversal(TreeNode* root) {
         vector<int>ans;
         if(!root) return ans;
         stack<TreeNode*>st;
@@ -37,5 +37,32 @@ public:
             if(node->left) st.push(node->left);
         }
         return ans;
+    }*/
+        //Morris Traversal
+    vector<int> preorderTraversal(TreeNode* root) {
+        vector<int>preorder;
+        TreeNode* curr=root;
+        while(curr){
+            if(!curr->left){
+                preorder.push_back(curr->val);
+                curr=curr->right;
+            }
+            else{
+                TreeNode* temp=curr->left;
+                while(temp->right and temp->right!=curr){
+                    temp=temp->right;
+                }
+                if(!temp->right){
+                    temp->right=curr;
+                    preorder.push_back(curr->val);
+                    curr=curr->left;
+                }
+                else{
+                    temp->right=NULL;
+                    curr=curr->right;
+                }
+            }
+        }
+        return preorder;
     }
 };
