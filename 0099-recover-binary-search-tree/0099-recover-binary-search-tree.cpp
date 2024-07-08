@@ -14,14 +14,10 @@ public:
 
         TreeNode* prev=NULL;
         TreeNode* first=NULL;
-        TreeNode* mid=NULL;
         TreeNode* last=NULL;
     void recoverTree(TreeNode* root) {
         inorder(root);
-        if(first and last) swap(first->val,last->val);
-        else if (first && mid) {
-            swap(first->val, mid->val);
-        }
+        swap(first->val,last->val);
     }
     void inorder(TreeNode* root){
         if(!root) return;
@@ -29,7 +25,7 @@ public:
         if(prev and prev->val>root->val){
             if(first==NULL){
                 first=prev;
-                mid=root;
+                last=root;
             }else {
                 last = root;
             }
