@@ -12,6 +12,7 @@ public:
     int rob(vector<int>& nums) {
        return solve(nums,nums.size()-1);
     }*/
+    /*
      int solve(vector<int>&nums,int ind,vector<int>&dp){
         if(ind==0) return nums[0];
         if(ind<0) return 0;
@@ -22,6 +23,20 @@ public:
     }
      int rob(vector<int>& nums) {
         vector<int>dp(nums.size(),-1);
+       return solve(nums,nums.size()-1,dp);
+    }*/
+    int solve(vector<int>&nums,int ind,vector<int>&dp){
+        dp[0]=nums[0];
+        for(int i=1;i<=ind;i++){
+           int pick=nums[i];
+           if(i>1) pick+=dp[i-2];
+           int notpick=dp[i-1];
+           dp[i]=max(pick,notpick);
+        }
+        return dp[ind];
+    }
+     int rob(vector<int>& nums) {
+        vector<int>dp(nums.size(),0);
        return solve(nums,nums.size()-1,dp);
     }
 };
