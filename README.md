@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/GautamGohel/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [1013-fibonacci-number](https://github.com/GautamGohel/LeetCode/tree/master/1013-fibonacci-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -190,4 +191,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/GautamGohel/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+## Math
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/GautamGohel/LeetCode/tree/master/1013-fibonacci-number) |
+## Recursion
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/GautamGohel/LeetCode/tree/master/1013-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/GautamGohel/LeetCode/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
