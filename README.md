@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/GautamGohel/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/GautamGohel/LeetCode/tree/master/0967-minimum-falling-path-sum) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/GautamGohel/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/GautamGohel/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/GautamGohel/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Divide and Conquer
 |  |
