@@ -1,7 +1,7 @@
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        /*
+        /* brute force tc O(2n) sc O(n)
         vector<int>temp;
         int n=nums.size();
         for(int i=0;i<n;i++){
@@ -16,6 +16,7 @@ public:
         for(int i=t;i<n;i++){
             nums[i]=0;
         }*/
+        //optimized O(n) O(1)
     int n=nums.size();
     int j=-1;
     for(int i=0;i<n;i++){
