@@ -171,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/GautamGohel/LeetCode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/GautamGohel/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/GautamGohel/LeetCode/tree/master/0213-house-robber-ii) |
+| [0283-move-zeroes](https://github.com/GautamGohel/LeetCode/tree/master/0283-move-zeroes) |
 | [0416-partition-equal-subset-sum](https://github.com/GautamGohel/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/GautamGohel/LeetCode/tree/master/0967-minimum-falling-path-sum) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/GautamGohel/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/GautamGohel/LeetCode/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/GautamGohel/LeetCode/tree/master/0283-move-zeroes) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/GautamGohel/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Math
 |  |
