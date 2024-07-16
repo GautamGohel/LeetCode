@@ -20,7 +20,7 @@ public:
     int j=-1;
     for(int i=0;i<n;i++){
         if(nums[i]==0){
-            j = (j == -1) ? i : j;
+            j = i ;
             break;
         }
     }
