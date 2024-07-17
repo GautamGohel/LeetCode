@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/GautamGohel/LeetCode/tree/master/0075-sort-colors) |
 | [0268-missing-number](https://github.com/GautamGohel/LeetCode/tree/master/0268-missing-number) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/GautamGohel/LeetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## String
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/GautamGohel/LeetCode/tree/master/0001-two-sum) |
 | [0063-unique-paths-ii](https://github.com/GautamGohel/LeetCode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/GautamGohel/LeetCode/tree/master/0064-minimum-path-sum) |
+| [0075-sort-colors](https://github.com/GautamGohel/LeetCode/tree/master/0075-sort-colors) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/GautamGohel/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/GautamGohel/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0120-triangle](https://github.com/GautamGohel/LeetCode/tree/master/0120-triangle) |
@@ -224,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/GautamGohel/LeetCode/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/GautamGohel/LeetCode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/GautamGohel/LeetCode/tree/master/0283-move-zeroes) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/GautamGohel/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
