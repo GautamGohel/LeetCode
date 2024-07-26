@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/GautamGohel/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/GautamGohel/LeetCode/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/GautamGohel/LeetCode/tree/master/1013-fibonacci-number) |
+| [1250-longest-common-subsequence](https://github.com/GautamGohel/LeetCode/tree/master/1250-longest-common-subsequence) |
 ## Hash Table
 |  |
 | ------- |
@@ -160,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0257-binary-tree-paths](https://github.com/GautamGohel/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/GautamGohel/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [1250-longest-common-subsequence](https://github.com/GautamGohel/LeetCode/tree/master/1250-longest-common-subsequence) |
 ## Backtracking
 |  |
 | ------- |
