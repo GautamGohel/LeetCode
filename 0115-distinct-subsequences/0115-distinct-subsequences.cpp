@@ -38,25 +38,45 @@ public:
     //     }
     //     return (int)dp[n1][n2];
     // }
+
+    //2D array space optimization
+
+    // int numDistinct(string s, string t) {
+    //     int n1=s.length();
+    //     int n2=t.length();
+    //     vector<double>prev(n2+1,0);
+    //         prev[0]=1;
+    //     // for(int j=1;j<=n2;j++){
+    //     //     dp[0][j]=0;
+    //     // } don't need as all are allready intitiallized with 0
+    //     for(int i=1;i<=n1;i++){
+    //         vector<double>curr(n2+1,0);
+    //         curr[0]=1;
+    //         for(int j=1;j<=n2;j++){
+    //              if(s[i-1]==t[j-1]){
+    //                 curr[j]=prev[j-1]+prev[j];
+    //             }
+    //             else curr[j]=prev[j];
+    //         }
+    //         prev=curr;
+    //     }
+    //     return (int)prev[n2];
+    // }
     int numDistinct(string s, string t) {
         int n1=s.length();
         int n2=t.length();
-        vector<double>prev(n2+1,0);
-            prev[0]=1;
+        vector<double>dp(n2+1,0);
+            dp[0]=1;
         // for(int j=1;j<=n2;j++){
         //     dp[0][j]=0;
         // } don't need as all are allready intitiallized with 0
         for(int i=1;i<=n1;i++){
-            vector<double>curr(n2+1,0);
-            curr[0]=1;
-            for(int j=1;j<=n2;j++){
-                 if(s[i-1]==t[j-1]){
-                    curr[j]=prev[j-1]+prev[j];
+            for(int j=n2;j>=1;j--){
+                if(s[i-1]==t[j-1]){
+                    dp[j]=dp[j-1]+dp[j];
                 }
-                else curr[j]=prev[j];
             }
-            prev=curr;
         }
-        return (int)prev[n2];
+        return (int)dp[n2];
     }
 };
