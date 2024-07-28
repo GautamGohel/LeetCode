@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/GautamGohel/LeetCode/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/GautamGohel/LeetCode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/GautamGohel/LeetCode/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/GautamGohel/LeetCode/tree/master/0063-unique-paths-ii) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/GautamGohel/LeetCode/tree/master/0044-wildcard-matching) |
 | [0115-distinct-subsequences](https://github.com/GautamGohel/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0257-binary-tree-paths](https://github.com/GautamGohel/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/GautamGohel/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -271,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/GautamGohel/LeetCode/tree/master/0044-wildcard-matching) |
 | [1013-fibonacci-number](https://github.com/GautamGohel/LeetCode/tree/master/1013-fibonacci-number) |
 ## Memoization
 |  |
@@ -301,4 +304,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2271-rearrange-array-elements-by-sign](https://github.com/GautamGohel/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
+## Greedy
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/GautamGohel/LeetCode/tree/master/0044-wildcard-matching) |
 <!---LeetCode Topics End-->
