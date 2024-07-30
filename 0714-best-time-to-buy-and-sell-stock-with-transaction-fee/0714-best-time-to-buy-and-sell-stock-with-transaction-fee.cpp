@@ -22,23 +22,44 @@ public:
     //     vector<vector<int>>dp(n,vector<int>(2,-1));
     //     return solve(prices,0,n,1,dp,fee);
     // }
-    int maxProfit(vector<int>& prices, int fee) {
+    // int maxProfit(vector<int>& prices, int fee) {
+    //     int n=prices.size();
+    //     vector<vector<int>>dp(n+1,vector<int>(2,-1));
+    //     dp[n][0]=dp[n][1]=0;
+    //     for(int ind=n-1;ind>=0;ind--){
+    //         for(int buy=0;buy<=1;buy++){
+    //             int profit=0;
+    //             if(buy){
+    //                 int profit=max(-prices[ind]+dp[ind+1][0],dp[ind+1][1]);
+    //                 dp[ind][buy]=profit;
+    //             }
+    //             else{
+    //                 int profit=max(prices[ind]+dp[ind+1][1]-fee,dp[ind+1][0]);
+    //                 dp[ind][buy]=profit;
+    //             }
+    //         }
+    //     }
+    //     return dp[0][1];
+    // }
+    int maxProfit(vector<int>& prices,int fee) {
         int n=prices.size();
-        vector<vector<int>>dp(n+1,vector<int>(2,-1));
-        dp[n][0]=dp[n][1]=0;
+        vector<int>ahead(2,0);
+        ahead[0]=ahead[1]=0;
         for(int ind=n-1;ind>=0;ind--){
+        vector<int>curr(2,0);
             for(int buy=0;buy<=1;buy++){
                 int profit=0;
                 if(buy){
-                    int profit=max(-prices[ind]+dp[ind+1][0],dp[ind+1][1]);
-                    dp[ind][buy]=profit;
+                    int profit=max(-prices[ind]+ahead[0],ahead[1]);
+                    curr[buy]=profit;
                 }
                 else{
-                    int profit=max(prices[ind]+dp[ind+1][1]-fee,dp[ind+1][0]);
-                    dp[ind][buy]=profit;
+                    int profit=max(prices[ind]+ahead[1]-fee,ahead[0]);
+                    curr[buy]=profit;
                 }
             }
+            ahead=curr;
         }
-        return dp[0][1];
+        return ahead[1];
     }
 };
