@@ -55,7 +55,7 @@ public:
    //space optimization
     int maxProfit(vector<int>& prices) {
         int n=prices.size();
-        vector<vector<int>>prev(2,vector<int>(3,0));
+        vector<vector<int>>after(2,vector<int>(3,0));
         //default is already 0 so we don't have to write 0 in base case
         //     for(int buy=0;buy<=1;buy++){
         //         prev[buy][0]=0;
@@ -72,17 +72,17 @@ public:
                for(int cap=1;cap<=2;cap++){
                  int profit=0;
                     if(buy){
-                        int profit=max(-prices[ind]+prev[0][cap],prev[1][cap]);
+                        int profit=max(-prices[ind]+after[0][cap],after[1][cap]);
                         curr[buy][cap]=profit;
                     }
                     else{
-                        int profit=max(prices[ind]+prev[1][cap-1],prev[0][cap]);
+                        int profit=max(prices[ind]+after[1][cap-1],after[0][cap]);
                         curr[buy][cap]=profit;
                     }
                }
             }
-            prev=curr;
+            after=curr;
         }
-        return prev[1][2];
+        return after[1][2];
     }
 };
