@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/GautamGohel/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/GautamGohel/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/GautamGohel/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/GautamGohel/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0967-minimum-falling-path-sum](https://github.com/GautamGohel/LeetCode/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/GautamGohel/LeetCode/tree/master/1013-fibonacci-number) |
 | [1170-shortest-common-supersequence](https://github.com/GautamGohel/LeetCode/tree/master/1170-shortest-common-supersequence) |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/GautamGohel/LeetCode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/GautamGohel/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/GautamGohel/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/GautamGohel/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0967-minimum-falling-path-sum](https://github.com/GautamGohel/LeetCode/tree/master/0967-minimum-falling-path-sum) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/GautamGohel/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/GautamGohel/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -317,4 +319,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0044-wildcard-matching](https://github.com/GautamGohel/LeetCode/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/GautamGohel/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/GautamGohel/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 <!---LeetCode Topics End-->
