@@ -1,24 +1,26 @@
 class Solution {
 public:
-    int removeDuplicates(vector<int>&a) {
-        /*
-      set<int>st;
-      for(int i=0;i<a.size();i++){
-        st.insert(a[i]);
-      }
-      int i=0;
-      for(auto it:st){
-        a[i]=it;
-        i++;
-      }
-      return i;*/
-      int i=0;
-      for(int j=1;j<a.size();j++){
-        if(a[j]!=a[i]){
-            a[i+1]=a[j];
-            i++;
+    // int removeDuplicates(vector<int>& nums) {
+    //     int n=nums.size();
+    //     set<int>s;
+    //     for(int i=0;i<n;i++){
+    //         s.insert(nums[i]);
+    //     }
+    //     int i=0;
+    //     for(auto it:s){
+    //         nums[i++]=it;
+    //     }
+    //     return i;
+    // }
+    int removeDuplicates(vector<int>& nums) {
+        int n=nums.size();
+        int i=0;
+        for(int j=1;j<n;j++){
+            if(nums[i]!=nums[j]){
+                i++;
+                nums[i]=nums[j];
+            }
         }
-      }
-      return i+1;
+        return i+1;
     }
 };
