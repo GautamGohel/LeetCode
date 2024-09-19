@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/GautamGohel/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/GautamGohel/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/GautamGohel/LeetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/GautamGohel/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/GautamGohel/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Sorting
 |  |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1170-shortest-common-supersequence](https://github.com/GautamGohel/LeetCode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/GautamGohel/LeetCode/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/GautamGohel/LeetCode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/GautamGohel/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Backtracking
 |  |
 | ------- |
@@ -398,4 +400,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/GautamGohel/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [1046-max-consecutive-ones-iii](https://github.com/GautamGohel/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/GautamGohel/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 <!---LeetCode Topics End-->
