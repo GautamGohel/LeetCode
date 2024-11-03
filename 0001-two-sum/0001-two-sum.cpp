@@ -1,19 +1,19 @@
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        //brute force using two for loops tc O(n2)
-
-        // better approach 
-        // using map tc O(nlogn) sc O(n)
-        map<int,int>mp;
-        int n=nums.size();
-        for(int i=0;i<n;i++){
-            int val=nums[i];
-            int rem=target-val;
-            if(mp.find(rem)!=mp.end()){
-                return {i,mp[rem]};
+    vector<int> twoSum(vector<int>& arr, int target) {
+        int n=arr.size();
+        int l=0;
+        int h=n-1;
+        while(1){
+            if(arr[l]+arr[h]==target){
+                return {l,h};
             }
-            mp[val]=i;
+            else if(arr[l]+arr[h]<target){
+                l++;
+            }
+            else{
+                h--;
+            }
         }
         return {-1,-1};
     }
