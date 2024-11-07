@@ -5,18 +5,21 @@ public:
         int l=0,h=n-1;
         while(l<=h){
             int mid=(l+h)/2;
-            if(nums[mid]==target) return mid;
-            if(nums[mid]>=nums[0]){
-                if(target>=nums[0] and target<nums[mid]){
-                    h=mid-1;
-                }else{
-                    l=mid+1;
-                }
+            if(nums[mid]==target){
+                return mid;
             }else{
-                if(target>nums[mid] and target<=nums[n-1]){
-                    l=mid+1;
+                if(nums[l]<=nums[mid]){
+                    if(target<nums[mid] and target>=nums[l]){
+                        h=mid-1;
+                    }else{
+                        l=mid+1;
+                    }
                 }else{
-                    h=mid-1;
+                    if(target>=nums[mid] and target<=nums[h]){
+                        l=mid+1;
+                    }else{
+                        h=mid-1;
+                    }
                 }
             }
         }
