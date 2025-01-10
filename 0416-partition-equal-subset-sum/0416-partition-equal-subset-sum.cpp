@@ -9,23 +9,23 @@ public:
         }
         if(sum%2!=0) return false;
         int target=sum/2;
-        vector<vector<bool>>dp(n,vector<bool>(target+1,false));
-        for(int i=0;i<n;i++){
-            dp[i][0]=true;
-        }
+        vector<bool>prev(target+1,false);
         if(arr[0]<=target){
-            dp[0][arr[0]]=true;
+           prev[arr[0]]=true;
         }
         for(int i=1;i<n;i++){
+            vector<bool>curr(target+1,false);
+            curr[0]=true;
             for(int j=0;j<=target;j++){
                 bool pick=false;
                 if(arr[i]<=j){
-                    pick=dp[i-1][j-arr[i]];
+                    pick=prev[j-arr[i]];
                 }
-                bool notpick=dp[i-1][j];
-                dp[i][j]=pick or notpick;
+                bool notpick=prev[j];
+                curr[j]=pick or notpick;
             }
+            prev=curr;
         }
-        return dp[n-1][target];
+        return prev[target];
     }
 };
