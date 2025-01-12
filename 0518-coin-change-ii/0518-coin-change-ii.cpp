@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-   int change(int amount, vector<int>& coins) {
+   long change(int amount, vector<int>& coins) {
         int n=coins.size();
         vector<vector<double>>dp(n,vector<double>(amount+1,0));
         for(int i=0;i<=amount;i++){
@@ -17,6 +17,6 @@ public:
                 dp[i][j]=pick+notpick;
             }
         }
-        return int(dp[n-1][amount]);
+        return (dp[n-1][amount]);
     }
 };
