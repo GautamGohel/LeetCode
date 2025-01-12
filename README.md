@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0312-burst-balloons](https://github.com/GautamGohel/LeetCode/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/GautamGohel/LeetCode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/GautamGohel/LeetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/GautamGohel/LeetCode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/GautamGohel/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/GautamGohel/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/GautamGohel/LeetCode/tree/master/0673-number-of-longest-increasing-subsequence) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/GautamGohel/LeetCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/GautamGohel/LeetCode/tree/master/0090-subsets-ii) |
 | [0257-binary-tree-paths](https://github.com/GautamGohel/LeetCode/tree/master/0257-binary-tree-paths) |
+| [0494-target-sum](https://github.com/GautamGohel/LeetCode/tree/master/0494-target-sum) |
 ## Binary Search
 |  |
 | ------- |
@@ -290,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/GautamGohel/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/GautamGohel/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/GautamGohel/LeetCode/tree/master/0485-max-consecutive-ones) |
+| [0494-target-sum](https://github.com/GautamGohel/LeetCode/tree/master/0494-target-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/GautamGohel/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/GautamGohel/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/GautamGohel/LeetCode/tree/master/0673-number-of-longest-increasing-subsequence) |
