@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/GautamGohel/LeetCode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/GautamGohel/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/GautamGohel/LeetCode/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/GautamGohel/LeetCode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/GautamGohel/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/GautamGohel/LeetCode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/GautamGohel/LeetCode/tree/master/0120-triangle) |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/GautamGohel/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0044-wildcard-matching](https://github.com/GautamGohel/LeetCode/tree/master/0044-wildcard-matching) |
+| [0072-edit-distance](https://github.com/GautamGohel/LeetCode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/GautamGohel/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0132-palindrome-partitioning-ii](https://github.com/GautamGohel/LeetCode/tree/master/0132-palindrome-partitioning-ii) |
 | [0257-binary-tree-paths](https://github.com/GautamGohel/LeetCode/tree/master/0257-binary-tree-paths) |
