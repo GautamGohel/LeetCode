@@ -1,48 +1,27 @@
 class Solution {
 public:
-    // int solve(int ind,vector<int>& prices,int n,int buy,vector<vector<int>>&dp){
-    //     if(ind>=n){
-    //         return 0;
-    //     }
-    //     if(dp[ind][buy]!=-1) return dp[ind][buy];
-    //    int profit=0;
-    //    if(buy){
-    //       profit=max(-prices[ind]+solve(ind+1,prices,n,0,dp),solve(ind+1,prices,n,1,dp));
-    //    }else{
-    //      profit=max(prices[ind]+solve(ind+2,prices,n,1,dp),solve(ind+1,prices,n,0,dp));
-    //    }
-    //    return dp[ind][buy]=profit;
-    // }
-
-    // int maxProfit(vector<int>& prices) {
-    //     int n=prices.size();
-    //     vector<vector<int>>dp(n,vector<int>(2,-1));
-    //     return solve(0,prices,n,1,dp);
-    // }
-
-    // int maxProfit(vector<int>& prices) {
-    //     int n=prices.size();
-    //     vector<vector<int>>dp(n+2,vector<int>(2,0));
-    //     for(int ind=n-1;ind>=0;ind--){
-    //         for(int buy=0;buy<=1;buy++){
-    //             if(buy){
-    //                 dp[ind][buy]=max(-prices[ind]+dp[ind+1][0],dp[ind+1][1]);
-    //             }else{
-    //                 dp[ind][buy]=max(prices[ind]+dp[ind+2][1],dp[ind+1][0]);
-    //             }
-    //         }
-    //     }
-    //     return dp[0][1];
-    // }
-
-   //we're dealing with ind+2 so space optimization won't be feasible but we can remove inner loop
     int maxProfit(vector<int>& prices) {
         int n=prices.size();
-        vector<vector<int>>dp(n+2,vector<int>(2,0));
-        for(int ind=n-1;ind>=0;ind--){
-                dp[ind][1]=max(-prices[ind]+dp[ind+1][0],dp[ind+1][1]);
-                dp[ind][0]=max(prices[ind]+dp[ind+2][1],dp[ind+1][0]);
+        vector<int>ahead(2,0);
+        vector<int>ahead2(2,0);
+        int profit;
+        for(int i=n-1;i>=0;i--){
+            vector<int>curr(2,-1);
+            for(int j=0;j<=1;j++){
+                if(j==0){
+                    int notbuy=ahead[j];
+                    int buyit=-prices[i]+ahead[!j];
+                    profit=max(notbuy,buyit);
+                }else{
+                    int notsell=ahead[j];
+                    int sellit=prices[i]+ahead2[!j];
+                    profit=max(sellit,notsell);
+                }
+                curr[j]=profit;
+            }
+            ahead2=ahead;
+            ahead=curr;
         }
-        return dp[0][1];
+        return ahead[0]; 
     }
 };
