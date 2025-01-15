@@ -3,24 +3,26 @@ public:
 
     int maxProfit(vector<int>& prices) {
         int n=prices.size();
-        vector<vector<int>>dp(n+1,vector<int>(2,-1));
-        dp[n][0]=0;
-        dp[n][1]=0;
+        vector<int>prev(2,-1);
+        prev[0]=0;
+        prev[1]=0;
         int profit;
         for(int i=n-1;i>=0;i--){
+            vector<int>curr(2,-1);
             for(int j=0;j<=1;j++){
                 if(j==0){
-                    int notbuy=dp[i+1][j];
-                    int buyit=-prices[i]+dp[i+1][!j];
+                    int notbuy=prev[j];
+                    int buyit=-prices[i]+prev[!j];
                     profit=max(notbuy,buyit);
                 }else{
-                    int notsell=dp[i+1][j];
-                    int sellit=prices[i]+dp[i+1][!j];
+                    int notsell=prev[j];
+                    int sellit=prices[i]+prev[!j];
                     profit=max(sellit,notsell);
                 }
-                dp[i][j]=profit;
+                curr[j]=profit;
             }
+            prev=curr;
         }
-        return dp[0][0];
+        return prev[0];
     }
 };
