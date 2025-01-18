@@ -1,19 +1,19 @@
 class Solution {
 public:
-
-    int solve(vector<int>&nums,int ind,int n,int prevind,vector<vector<int>>&dp){
-        if(ind==n) return 0;
-        if(dp[ind][prevind+1]!=-1) return dp[ind][prevind+1];
-        int nottake=solve(nums,ind+1,n,prevind,dp);
-        int take=0;
-        if(prevind==-1 or nums[prevind]<nums[ind])
-         take=1+solve(nums,ind+1,n,ind,dp);
-        return dp[ind][prevind+1]=max(nottake,take);
-    }
    
     int lengthOfLIS(vector<int>& nums) {
         int n=nums.size();
-        vector<vector<int>>dp(n+1,vector<int>(n,-1));
-        return solve(nums,0,n,-1,dp);
+        vector<vector<int>>dp(n+1,vector<int>(n+1,0));
+        for(int ind=n-1;ind>=0;ind--){
+           for(int prevind=ind-1;prevind>=-1;prevind--){
+              int take=0;
+              if(prevind==-1 or nums[prevind]<nums[ind]){
+                  take=1+dp[ind+1][ind+1];
+              }
+              int nottake=dp[ind+1][prevind+1];
+              dp[ind][prevind+1]=max(take,nottake);
+           }
+        }
+        return dp[0][0];
     }
 };
