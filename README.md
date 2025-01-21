@@ -316,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/GautamGohel/LeetCode/tree/master/1646-kth-missing-positive-number) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/GautamGohel/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2047-find-a-peak-element-ii](https://github.com/GautamGohel/LeetCode/tree/master/2047-find-a-peak-element-ii) |
+| [2145-grid-game](https://github.com/GautamGohel/LeetCode/tree/master/2145-grid-game) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/GautamGohel/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/GautamGohel/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2685-first-completely-painted-row-or-column](https://github.com/GautamGohel/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
@@ -404,12 +405,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/GautamGohel/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0967-minimum-falling-path-sum](https://github.com/GautamGohel/LeetCode/tree/master/0967-minimum-falling-path-sum) |
 | [2047-find-a-peak-element-ii](https://github.com/GautamGohel/LeetCode/tree/master/2047-find-a-peak-element-ii) |
+| [2145-grid-game](https://github.com/GautamGohel/LeetCode/tree/master/2145-grid-game) |
 | [2685-first-completely-painted-row-or-column](https://github.com/GautamGohel/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/GautamGohel/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/GautamGohel/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [2145-grid-game](https://github.com/GautamGohel/LeetCode/tree/master/2145-grid-game) |
 ## Counting
 |  |
 | ------- |
