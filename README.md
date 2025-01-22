@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/GautamGohel/LeetCode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/GautamGohel/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/GautamGohel/LeetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1876-map-of-highest-peak](https://github.com/GautamGohel/LeetCode/tree/master/1876-map-of-highest-peak) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -314,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/GautamGohel/LeetCode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/GautamGohel/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/GautamGohel/LeetCode/tree/master/1646-kth-missing-positive-number) |
+| [1876-map-of-highest-peak](https://github.com/GautamGohel/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/GautamGohel/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2047-find-a-peak-element-ii](https://github.com/GautamGohel/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 | [2145-grid-game](https://github.com/GautamGohel/LeetCode/tree/master/2145-grid-game) |
@@ -404,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/GautamGohel/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/GautamGohel/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0967-minimum-falling-path-sum](https://github.com/GautamGohel/LeetCode/tree/master/0967-minimum-falling-path-sum) |
+| [1876-map-of-highest-peak](https://github.com/GautamGohel/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [2047-find-a-peak-element-ii](https://github.com/GautamGohel/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 | [2145-grid-game](https://github.com/GautamGohel/LeetCode/tree/master/2145-grid-game) |
 | [2685-first-completely-painted-row-or-column](https://github.com/GautamGohel/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
