@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/GautamGohel/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/GautamGohel/LeetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/GautamGohel/LeetCode/tree/master/1396-count-servers-that-communicate) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/GautamGohel/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 ## Binary Tree
 |  |
 | ------- |
@@ -479,8 +480,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/GautamGohel/LeetCode/tree/master/0820-find-eventual-safe-states) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/GautamGohel/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 ## Topological Sort
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/GautamGohel/LeetCode/tree/master/0820-find-eventual-safe-states) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/GautamGohel/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 <!---LeetCode Topics End-->
