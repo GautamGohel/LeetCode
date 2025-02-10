@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/GautamGohel/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/GautamGohel/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/GautamGohel/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [3447-clear-digits](https://github.com/GautamGohel/LeetCode/tree/master/3447-clear-digits) |
 ## Tree
 |  |
 | ------- |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/GautamGohel/LeetCode/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/GautamGohel/LeetCode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/GautamGohel/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [3447-clear-digits](https://github.com/GautamGohel/LeetCode/tree/master/3447-clear-digits) |
 ## Backtracking
 |  |
 | ------- |
@@ -457,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/GautamGohel/LeetCode/tree/master/0054-spiral-matrix) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/GautamGohel/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/GautamGohel/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3447-clear-digits](https://github.com/GautamGohel/LeetCode/tree/master/3447-clear-digits) |
 ## Greedy
 |  |
 | ------- |
