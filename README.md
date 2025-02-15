@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/GautamGohel/LeetCode/tree/master/0090-subsets-ii) |
 | [0257-binary-tree-paths](https://github.com/GautamGohel/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0494-target-sum](https://github.com/GautamGohel/LeetCode/tree/master/0494-target-sum) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/GautamGohel/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Binary Search
 |  |
 | ------- |
@@ -409,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/GautamGohel/LeetCode/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/GautamGohel/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [1013-fibonacci-number](https://github.com/GautamGohel/LeetCode/tree/master/1013-fibonacci-number) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/GautamGohel/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Recursion
 |  |
 | ------- |
