@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/GautamGohel/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/GautamGohel/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/GautamGohel/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/GautamGohel/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3447-clear-digits](https://github.com/GautamGohel/LeetCode/tree/master/3447-clear-digits) |
 ## Tree
 |  |
@@ -224,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/GautamGohel/LeetCode/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/GautamGohel/LeetCode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/GautamGohel/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/GautamGohel/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3447-clear-digits](https://github.com/GautamGohel/LeetCode/tree/master/3447-clear-digits) |
 ## Backtracking
 |  |
@@ -236,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/GautamGohel/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0494-target-sum](https://github.com/GautamGohel/LeetCode/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/GautamGohel/LeetCode/tree/master/1160-letter-tile-possibilities) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/GautamGohel/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/GautamGohel/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Binary Search
 |  |
@@ -474,6 +477,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/GautamGohel/LeetCode/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/GautamGohel/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/GautamGohel/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/GautamGohel/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Binary Indexed Tree
 |  |
 | ------- |
