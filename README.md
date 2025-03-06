@@ -197,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2306-create-binary-tree-from-descriptions](https://github.com/GautamGohel/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2434-design-a-number-container-system](https://github.com/GautamGohel/LeetCode/tree/master/2434-design-a-number-container-system) |
 | [2685-first-completely-painted-row-or-column](https://github.com/GautamGohel/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
+| [3227-find-missing-and-repeated-values](https://github.com/GautamGohel/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/GautamGohel/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Sorting
 |  |
@@ -358,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2551-apply-operations-to-an-array](https://github.com/GautamGohel/LeetCode/tree/master/2551-apply-operations-to-an-array) |
 | [2685-first-completely-painted-row-or-column](https://github.com/GautamGohel/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/GautamGohel/LeetCode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
+| [3227-find-missing-and-repeated-values](https://github.com/GautamGohel/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/GautamGohel/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/GautamGohel/LeetCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/GautamGohel/LeetCode/tree/master/3429-special-array-i) |
@@ -425,6 +427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/GautamGohel/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [1013-fibonacci-number](https://github.com/GautamGohel/LeetCode/tree/master/1013-fibonacci-number) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/GautamGohel/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
+| [3227-find-missing-and-repeated-values](https://github.com/GautamGohel/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 ## Recursion
 |  |
 | ------- |
@@ -456,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2047-find-a-peak-element-ii](https://github.com/GautamGohel/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 | [2145-grid-game](https://github.com/GautamGohel/LeetCode/tree/master/2145-grid-game) |
 | [2685-first-completely-painted-row-or-column](https://github.com/GautamGohel/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
+| [3227-find-missing-and-repeated-values](https://github.com/GautamGohel/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 ## Prefix Sum
 |  |
 | ------- |
