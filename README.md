@@ -215,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/GautamGohel/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0014-longest-common-prefix](https://github.com/GautamGohel/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0044-wildcard-matching](https://github.com/GautamGohel/LeetCode/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/GautamGohel/LeetCode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/GautamGohel/LeetCode/tree/master/0115-distinct-subsequences) |
@@ -553,4 +554,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2610-closest-prime-numbers-in-range](https://github.com/GautamGohel/LeetCode/tree/master/2610-closest-prime-numbers-in-range) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/GautamGohel/LeetCode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
