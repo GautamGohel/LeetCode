@@ -12,24 +12,24 @@
 class Solution {
 public:
 
-    TreeNode* buildBinaryTree(vector<int>& preorder,int preStart,int preEnd,vector<int>& inorder,int inStart,int inEnd,map<int,int>&mp){
-        if(inStart>inEnd or preStart>preEnd) return NULL;
-        TreeNode* root=new TreeNode(preorder[preStart]);
-        int inroot=mp[root->val];
-        int inleft=inroot-inStart;
-        root->left=buildBinaryTree(preorder,preStart+1,preStart+inleft,inorder,inStart,inroot-1,mp);
-        root->right=buildBinaryTree(preorder,preStart+inleft+1,preEnd,inorder,inroot+1,inEnd,mp);
-        return root;
+    TreeNode* buildBtree(vector<int>&preorder,int prestart,int preend,vector<int>&inorder,int instart,int inend,map<int,int>&hashmap){
+        if(prestart>preend or instart>inend) return NULL;
+         TreeNode* node=new TreeNode(preorder[prestart]);
+         int inroot=hashmap[node->val];
+         int gap=inroot-instart;
+         node->left=buildBtree(preorder,prestart+1,gap+prestart,inorder,instart,inroot-1,hashmap);
+         node->right=buildBtree(preorder,prestart+gap+1,preend,inorder,inroot+1,inend,hashmap);
+         return node;
     }
-   
+
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        map<int,int>mp;
-        int preSize=preorder.size();
-        int inSize=inorder.size();
-        for(int i=0;i<inSize;i++){
-            mp[inorder[i]]=i;
+        map<int,int>hashmap;
+        int presize=preorder.size();
+        int insize=inorder.size();
+        for(int i=0;i<insize;i++){
+            hashmap[inorder[i]]=i;
         }
-        TreeNode* root=buildBinaryTree(preorder,0,preSize-1,inorder,0,inSize-1,mp);
+        TreeNode* root=buildBtree(preorder,0,presize-1,inorder,0,insize-1,hashmap);
         return root;
     }
 };
