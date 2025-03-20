@@ -12,24 +12,24 @@
 class Solution {
 public:
 
-    TreeNode* buildBinaryTree(vector<int>& inorder,int inStart,int inEnd, vector<int>& postorder,int postStart,int postEnd,map<int,int>&mp){
-        if(inStart>inEnd or postStart>postEnd) return NULL;
-        TreeNode* root=new TreeNode(postorder[postEnd]);
-        int inroot=mp[root->val];
-        int leftele=inroot-inStart;
-        root->left=buildBinaryTree(inorder,inStart,inroot-1,postorder,postStart,postStart+leftele-1,mp);
-        root->right=buildBinaryTree(inorder,inroot+1,inEnd,postorder,postStart+leftele,postEnd-1,mp);
-        return root;
+    TreeNode* buildbinarytree(vector<int>& inorder,int instart,int inend, vector<int>& postorder,int poststart,int postend,map<int,int>&hashmap){
+        if(instart>inend or poststart>postend) return NULL;
+        TreeNode* node=new TreeNode(postorder[postend]);
+        int inroot=hashmap[node->val];
+        int inleft=inroot-instart;
+        node->left=buildbinarytree(inorder,instart,inroot-1,postorder,poststart,poststart+inleft-1,hashmap);
+        node->right=buildbinarytree(inorder,inroot+1,inend,postorder,poststart+inleft,postend-1,hashmap);
+        return node;
     }
-   
+
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
-        map<int,int>mp;
-        int inSize=inorder.size();
-        int postSize=postorder.size();
-        for(int i=0;i<inSize;i++){
-            mp[inorder[i]]=i;
+        int insize=inorder.size();
+        int postsize=postorder.size();
+        map<int,int>hashmap;
+        for(int i=0;i<insize;i++){
+            hashmap[inorder[i]]=i;
         }
-        TreeNode* root=buildBinaryTree(inorder,0,inSize-1,postorder,0,postSize-1,mp);
-        return root;
+       TreeNode* node= buildbinarytree(inorder,0,insize-1,postorder,0,postsize-1,hashmap);
+       return node;
     }
 };
