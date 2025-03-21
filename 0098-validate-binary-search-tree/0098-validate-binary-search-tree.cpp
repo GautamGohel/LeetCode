@@ -11,14 +11,14 @@
  */
 class Solution {
 public:
-    
-    bool isValid(TreeNode* root,long mini,long maxi){
+
+   bool isvalid(TreeNode* root,long mini,long maxi){
        if(!root) return true;
        if(root->val>=maxi or root->val<=mini) return false;
-       return isValid(root->left,mini,root->val) and isValid(root->right,root->val,maxi);
-    }
-   
+       return isvalid(root->left,mini,root->val) and isvalid(root->right,root->val,maxi);
+   }
+ 
     bool isValidBST(TreeNode* root) {
-        return isValid(root, LONG_MIN,LONG_MAX);
+        return isvalid(root,LONG_MIN,LONG_MAX); 
     }
 };
