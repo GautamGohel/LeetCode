@@ -1,29 +1,28 @@
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
-        sort(nums.begin(), nums.end());
-        vector<vector<int>> ans;
-        int n = nums.size();
-        for (int i = 0; i < n - 2; i++) {
-            if (i > 0 && nums[i] == nums[i - 1])
-                continue;
-            
-            int left = i + 1;
-            int right = n - 1;
-            while (left < right) {
-                int sum = nums[i] + nums[left] + nums[right];
-                if (sum == 0) {
-                    ans.push_back({nums[i], nums[left], nums[right]});
-                    left++;
-                    right--;
-                    while (left < right && nums[left] == nums[left - 1])
-                        left++;
-                    while (left < right && nums[right] == nums[right + 1])
-                        right--;
-                } else if (sum < 0) {
-                    left++;
-                } else {
-                    right--;
+        sort(nums.begin(),nums.end());
+        vector<vector<int>>ans;
+        int n=nums.size();
+        for(int i=0;i<n-2;i++){
+            int ptr1=i;
+            int ptr2=i+1;
+            int ptr3=n-1;
+            if(ptr1!=0 and nums[ptr1]==nums[ptr1-1]) continue;
+            while(ptr2<ptr3){
+                int sum=nums[ptr1]+nums[ptr2]+nums[ptr3];
+                if(sum==0){
+                    ans.push_back({nums[ptr1],nums[ptr2],nums[ptr3]});
+                    ptr2++;
+                    ptr3--;
+                    while(ptr2<ptr3 and nums[ptr2]==nums[ptr2-1]) ptr2++;
+                    while(ptr2<ptr3 and nums[ptr3]==nums[ptr3+1]) ptr3--;
+                }
+                else if(sum<0){
+                    ptr2++;
+                }
+                else{
+                    ptr3--;
                 }
             }
         }
