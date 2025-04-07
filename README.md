@@ -245,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/GautamGohel/LeetCode/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/GautamGohel/LeetCode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/GautamGohel/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1651-shuffle-string](https://github.com/GautamGohel/LeetCode/tree/master/1651-shuffle-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/GautamGohel/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3447-clear-digits](https://github.com/GautamGohel/LeetCode/tree/master/3447-clear-digits) |
 ## Backtracking
@@ -368,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/GautamGohel/LeetCode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/GautamGohel/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/GautamGohel/LeetCode/tree/master/1646-kth-missing-positive-number) |
+| [1651-shuffle-string](https://github.com/GautamGohel/LeetCode/tree/master/1651-shuffle-string) |
 | [1876-map-of-highest-peak](https://github.com/GautamGohel/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/GautamGohel/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/GautamGohel/LeetCode/tree/master/1927-maximum-ascending-subarray-sum) |
