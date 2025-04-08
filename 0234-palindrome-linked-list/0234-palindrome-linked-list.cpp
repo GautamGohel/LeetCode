@@ -10,47 +10,25 @@
  */
 class Solution {
 public:
-    
+   
     ListNode* reversell(ListNode* head){
-        if(!head or !head->next){
-            return head;
-        }
-      ListNode* new_head=reversell(head->next);
-      head->next->next=head;
-      head->next=NULL;
-      return new_head;
-    } 
+        if(!head or !head->next) return head;
+        ListNode* newhead=reversell(head->next);
+        head->next->next=head;
+        head->next=NULL;
+        return newhead;
+    }
 
     bool isPalindrome(ListNode* head) {
-        /* Brute force
-               stack<int>st;
-        ListNode* temp=head;
-        while(temp){
-            st.push(temp->val);
-             temp=temp->next;
-        }
-        temp=head;
-        while(temp){
-            if(temp->val!=st.top()){
-                return false;
-            }
-            temp=temp->next;
-            st.pop();
-        }
-        return true;
-        */
-        if(!head or !head->next){
-            return true;
-        }
         ListNode* slow=head;
         ListNode* fast=head;
-        while(fast->next and fast->next->next ){
+        while(fast->next and fast->next->next){
             slow=slow->next;
             fast=fast->next->next;
         }
-        ListNode* newHead=reversell(slow->next);
+        ListNode* newhead=reversell(slow->next);
         ListNode* temp1=head;
-        ListNode* temp2=newHead;
+        ListNode* temp2=newhead;
         while(temp2){
             if(temp1->val!=temp2->val){
                 return false;
