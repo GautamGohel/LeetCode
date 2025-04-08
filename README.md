@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/GautamGohel/LeetCode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/GautamGohel/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/GautamGohel/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0148-sort-list](https://github.com/GautamGohel/LeetCode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/GautamGohel/LeetCode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/GautamGohel/LeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/GautamGohel/LeetCode/tree/master/0268-missing-number) |
@@ -399,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/GautamGohel/LeetCode/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/GautamGohel/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/GautamGohel/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0148-sort-list](https://github.com/GautamGohel/LeetCode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/GautamGohel/LeetCode/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/GautamGohel/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/GautamGohel/LeetCode/tree/master/0347-top-k-frequent-elements) |
@@ -415,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/GautamGohel/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0141-linked-list-cycle](https://github.com/GautamGohel/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/GautamGohel/LeetCode/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/GautamGohel/LeetCode/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/GautamGohel/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/GautamGohel/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/GautamGohel/LeetCode/tree/master/0908-middle-of-the-linked-list) |
@@ -452,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/GautamGohel/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/GautamGohel/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/GautamGohel/LeetCode/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/GautamGohel/LeetCode/tree/master/0148-sort-list) |
 | [0189-rotate-array](https://github.com/GautamGohel/LeetCode/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/GautamGohel/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/GautamGohel/LeetCode/tree/master/0283-move-zeroes) |
@@ -610,4 +614,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/GautamGohel/LeetCode/tree/master/0812-rotate-string) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/GautamGohel/LeetCode/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
