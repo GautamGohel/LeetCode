@@ -1,87 +1,33 @@
 class MyQueue {
 public:
+    stack<int>s1,s2;
     MyQueue() {
-        
-    }
-    /*
-        void push(int x) {
-        q.push(x);
     }
     
-    int pop() {
-        if(p.empty())
-        {
-            while(!q.empty())
-            {
-                    p.push(q.top());
-                    q.pop();
-            }
-        }
-        int x = p.top();
-        p.pop();
-        return x;
-    }
-    
-    int peek() {
-        if(p.empty())
-        {
-           while(!q.empty())
-            {
-                    p.push(q.top());
-                    q.pop();
-            }
-        }
-        int x = p.top();
-        return x;
-    }
-    
-    bool empty() {
-        if(!q.empty() || !p.empty())
-        {
-            return false;
-        }
-        return true;
-    }
-    */
-    stack<int>inp,out;
     void push(int x) {
-        inp.push(x);
+        while(!s1.empty()){
+            s2.push(s1.top());
+            s1.pop();
+        }
+        s1.push(x);
+        while(!s2.empty()){
+            s1.push(s2.top());
+            s2.pop();
+        }
     }
     
     int pop() {
-        if(out.empty()){
-            while(!inp.empty()){
-                out.push(inp.top());
-                inp.pop();
-            }
-            int val=out.top();
-            out.pop();
-            return val;
-        }
-        else{
-         int val=out.top();
-         out.pop();
-         return val;
-        }
+        int topp=s1.top();
+        s1.pop();
+        return topp;
     }
     
     int peek() {
-               if(out.empty()){
-            while(!inp.empty()){
-                out.push(inp.top());
-                inp.pop();
-            }
-            return out.top();
-        }
-        else{
-         return out.top();
-        }
+        return s1.top();
     }
     
     bool empty() {
-        if(!inp.empty() or !out.empty()) return false;
-        else
-         return true;
+        return s1.empty();
     }
 };
 
