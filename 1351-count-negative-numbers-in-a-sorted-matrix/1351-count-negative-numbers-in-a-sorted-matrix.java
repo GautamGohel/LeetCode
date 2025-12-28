@@ -4,11 +4,16 @@ class Solution {
         int n=grid[0].length;
         int cnt=0;
         for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                if(grid[i][j]<0){
-                    cnt++;
-                }
+           int l=0,h=n-1;
+           while(l<=h){
+            int mid=(l+h)/2;
+            if(grid[i][mid]<0){
+                h=mid-1;
+            }else{
+                l=mid+1;
             }
+           }
+           if(l<n) cnt+=n-l;
         }
         return cnt;
     }
