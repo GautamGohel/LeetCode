@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/GautamGohel/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/GautamGohel/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/GautamGohel/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0756-pyramid-transition-matrix](https://github.com/GautamGohel/LeetCode/tree/master/0756-pyramid-transition-matrix) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/GautamGohel/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/GautamGohel/LeetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1160-letter-tile-possibilities](https://github.com/GautamGohel/LeetCode/tree/master/1160-letter-tile-possibilities) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/GautamGohel/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/GautamGohel/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/GautamGohel/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
+| [0756-pyramid-transition-matrix](https://github.com/GautamGohel/LeetCode/tree/master/0756-pyramid-transition-matrix) |
 | [0812-rotate-string](https://github.com/GautamGohel/LeetCode/tree/master/0812-rotate-string) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/GautamGohel/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/GautamGohel/LeetCode/tree/master/1160-letter-tile-possibilities) |
@@ -267,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/GautamGohel/LeetCode/tree/master/0090-subsets-ii) |
 | [0257-binary-tree-paths](https://github.com/GautamGohel/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0494-target-sum](https://github.com/GautamGohel/LeetCode/tree/master/0494-target-sum) |
+| [0756-pyramid-transition-matrix](https://github.com/GautamGohel/LeetCode/tree/master/0756-pyramid-transition-matrix) |
 | [1160-letter-tile-possibilities](https://github.com/GautamGohel/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/GautamGohel/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/GautamGohel/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
@@ -305,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/GautamGohel/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/GautamGohel/LeetCode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/GautamGohel/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [0756-pyramid-transition-matrix](https://github.com/GautamGohel/LeetCode/tree/master/0756-pyramid-transition-matrix) |
 ## Array
 |  |
 | ------- |
