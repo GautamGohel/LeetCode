@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/GautamGohel/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1396-count-servers-that-communicate](https://github.com/GautamGohel/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1558-course-schedule-iv](https://github.com/GautamGohel/LeetCode/tree/master/1558-course-schedule-iv) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/GautamGohel/LeetCode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/GautamGohel/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/GautamGohel/LeetCode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Tree
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1396-count-servers-that-communicate](https://github.com/GautamGohel/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1558-course-schedule-iv](https://github.com/GautamGohel/LeetCode/tree/master/1558-course-schedule-iv) |
 | [1876-map-of-highest-peak](https://github.com/GautamGohel/LeetCode/tree/master/1876-map-of-highest-peak) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/GautamGohel/LeetCode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/GautamGohel/LeetCode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/GautamGohel/LeetCode/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 ## Dynamic Programming
@@ -299,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/GautamGohel/LeetCode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/GautamGohel/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/GautamGohel/LeetCode/tree/master/1646-kth-missing-positive-number) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/GautamGohel/LeetCode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2047-find-a-peak-element-ii](https://github.com/GautamGohel/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 ## Bit Manipulation
 |  |
@@ -391,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1876-map-of-highest-peak](https://github.com/GautamGohel/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/GautamGohel/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/GautamGohel/LeetCode/tree/master/1927-maximum-ascending-subarray-sum) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/GautamGohel/LeetCode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2047-find-a-peak-element-ii](https://github.com/GautamGohel/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 | [2145-grid-game](https://github.com/GautamGohel/LeetCode/tree/master/2145-grid-game) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/GautamGohel/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -532,6 +536,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/GautamGohel/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/GautamGohel/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1876-map-of-highest-peak](https://github.com/GautamGohel/LeetCode/tree/master/1876-map-of-highest-peak) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/GautamGohel/LeetCode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2047-find-a-peak-element-ii](https://github.com/GautamGohel/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 | [2145-grid-game](https://github.com/GautamGohel/LeetCode/tree/master/2145-grid-game) |
 | [2685-first-completely-painted-row-or-column](https://github.com/GautamGohel/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
@@ -604,6 +609,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/GautamGohel/LeetCode/tree/master/0684-redundant-connection) |
 | [0854-making-a-large-island](https://github.com/GautamGohel/LeetCode/tree/master/0854-making-a-large-island) |
 | [1396-count-servers-that-communicate](https://github.com/GautamGohel/LeetCode/tree/master/1396-count-servers-that-communicate) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/GautamGohel/LeetCode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/GautamGohel/LeetCode/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/GautamGohel/LeetCode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Graph
