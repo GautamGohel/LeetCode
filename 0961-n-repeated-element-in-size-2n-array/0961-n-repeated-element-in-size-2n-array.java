@@ -1,16 +1,11 @@
 class Solution {
     public int repeatedNTimes(int[] nums) {
-        // HashMap<int,int>mp=new HashMap<>();
+        Map<Integer,Integer>mp=new HashMap<>();
         int n=nums.length;
-        for(int i=0;i<n;i++){
-            int cnt=0;
-           for(int j=0;j<n;j++){
-             if(nums[i]==nums[j]){
-                cnt++;
-             }
-           }
-           if(cnt==n/2){
-             return nums[i];
+        for(int num:nums){
+           mp.put(num,mp.getOrDefault(num,0)+1);
+           if(mp.get(num)==n/2){
+            return num;
            }
         }
         return -1;
