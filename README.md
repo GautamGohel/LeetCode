@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1170-shortest-common-supersequence](https://github.com/GautamGohel/LeetCode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/GautamGohel/LeetCode/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/GautamGohel/LeetCode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/GautamGohel/LeetCode/tree/master/1458-max-dot-product-of-two-subsequences) |
 ## Hash Table
 |  |
 | ------- |
@@ -393,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1364-tuple-with-same-product](https://github.com/GautamGohel/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/GautamGohel/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/GautamGohel/LeetCode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/GautamGohel/LeetCode/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/GautamGohel/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/GautamGohel/LeetCode/tree/master/1646-kth-missing-positive-number) |
 | [1651-shuffle-string](https://github.com/GautamGohel/LeetCode/tree/master/1651-shuffle-string) |
